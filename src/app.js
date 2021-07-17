@@ -5,9 +5,12 @@ import logger from 'morgan';
 import router from './route/MainRouter';
 const app = express();
 
+const cors = require('cors');
+
 
 // Setup view engine as pug
 app.set('view engine', 'pug');
+app.use(cors());
 
 app.use(logger('dev'));
 app.use(express.json());
