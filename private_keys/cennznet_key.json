@@ -1,0 +1,21 @@
+{
+  "address": "5GgDMinmqp7NBxct5h4U2XnJ1Y9tV4XjScvvSdc6LCMVPcJF",
+  "encoded": "0BiJFzU7LzjgKdjf1xBATawV1QfbXIDmKQ7Abjh0TCkAgAAAAQAAAAgAAADHLZ51kQxVBb1afATUDTfOAtTlZ2JPqnHytnNTsF1FQ2aWXI4MC93Snvx+29yOacoQIv28Ot1s6DFpCNnciPnbRijypsJJIL6jt+OuBFWfl645nZz45Iuh82RlgcKzbTpOOX4slwWjClTInKCsvsfs2tP7zd41Bn3RBNLdZF5YAirMzaob5ULaAHCL/cyg+3Ibxdcc2p/BkmMyldlX",
+  "encoding": {
+    "content": [
+      "pkcs8",
+      "sr25519"
+    ],
+    "type": [
+      "scrypt",
+      "xsalsa20-poly1305"
+    ],
+    "version": "3"
+  },
+  "meta": {
+    "genesisHash": "0x6f2ca0f5c770a9212d30b49604b2e45e2d3c949a3a940bfe908d68dbc4a0415e",
+    "name": "DEVELOPETS-PROD",
+    "tags": [],
+    "whenCreated": 1625274155145
+  }
+}
