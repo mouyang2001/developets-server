@@ -5,7 +5,7 @@
   "private": false,
   "scripts": {
     "dev": "nodemon -e js,json,ts --watch src --exec babel-node ./src/bin/www.js --extensions .ts,.js",
-    "clean": "rm -rf dist",
+    "clean": "rimraf dist",
     "prebuild": "yarn run clean",
     "build": "babel src -d dist --extensions .ts,.js",
     "prestart": "yarn run build",
@@ -27,7 +27,8 @@
     "mongoose": "^5.10.5",
     "morgan": "~1.9.1",
     "nodemon": "^2.0.4",
-    "pug": "~3.0.0"
+    "pug": "~3.0.0",
+    "rimraf": "^3.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.10",
