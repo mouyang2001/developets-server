@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 // Add client build path to static files (so that it can be served)
-app.use(express.static(path.join(__dirname, '../../client/build-latest')));
+// app.use(express.static(path.join(__dirname, '../../client/build-latest')));
 
 // Send everything to router
 app.use('/', router);
