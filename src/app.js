@@ -21,9 +21,9 @@ app.use(express.static(path.join(__dirname, '../../client/build-latest')));
 app.use('/', router);
 
 // If router does not have the specified request type, send the client build SPA
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname + '/../../client/build-latest/index.html'));
-});
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname + '/../../client/build-latest/index.html'));
+// });
 
 // Error handler
 app.use((err, req, res) => {
